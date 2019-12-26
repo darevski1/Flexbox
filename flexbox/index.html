@@ -13,14 +13,19 @@
     <div class="sidenav">
 
     </div>
-    <section class="section-one">
+    <div class="container">
+    <section class="section">
         <h1>Flexbox Container</h1>
         <div class="parent">
-            <div class="box">Box 1</div>
-            <div class="box">Box 1</div>
-            <div class="box">Box 1</div>
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="arow">
+                &rarr;
+            </div>
         </div>
-
         <div class="codeblock">
             <div class="code">
                 <em>Flexbox Container</em>
@@ -46,6 +51,468 @@
         </div>
 
     </section>
+    <section class="section">
+        <h1>Flexbox Axes</h1>
+        <div class="codeblock">
+            <div class="code">
+                <em>Flexbox Axes</em>
+                <p>Main Exes - Start to End</p>
+                <p>Cross - End to Start</p>
+
+            </div>
+          
+        </div>
+    </section>
+    <section class="section">
+        <h1>Flex-direction - row</h1>
+        <div class="row-direction">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="arow">
+                &rarr;
+            </div>
+        </div>
+        <div class="codeblock">
+    
+            <em>Fles Direction</em>
+            <xmp>
+                <div class="row-direction">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+
+                CSS
+                .row-direction {
+                    display: flex;
+                    flex-direction: row;
+                }
+    
+            </xmp>
+        </div>
+    </section>
+    <section class="section">
+        <h1>Flex-direction - Column</h1>
+        <div class="column-direction">
+            <div class="arow">
+                &darr;
+            </div>
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+          
+        </div>
+        <div class="codeblock">
+    
+            <em>Fles Direction</em>
+            <xmp>
+                <div class="column-direction">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                  
+                </div>
+
+                CSS
+                .column-direction {
+                    display: flex;
+                    flex-direction:column;
+                }
+    
+            </xmp>
+        </div>
+    </section>
+
+    <section class="section">
+        <h1>Flex-direction - row-reverse</h1>
+        <div class="row-reverse-direction">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="arow">
+                &larr;
+            </div>
+        </div>
+        <div class="codeblock">
+    
+            <em>Fles Direction</em>
+            <xmp>
+                <div class="row-reverse-direction">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+
+                CSS
+                .row-reverse-direction {
+                    display: flex;
+                    flex-direction:column;
+                }
+    
+            </xmp>
+        </div>
+    </section>
+    <section class="section">
+        <h1>Flex-direction - column-reverse</h1>
+        <div class="column-reverse-direction">
+      
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="arow">
+                &darr;
+            </div>
+        </div>
+        <div class="codeblock">
+    
+            <em>Fles Direction - coumn reverse</em>
+            <xmp>
+                <div class="column-reverse-direction">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+
+                CSS
+                .column-reverse-direction {
+                    display: flex;
+                    flex-direction:column-reverse;
+                }
+    
+            </xmp>
+        </div>
+    </section>
+    <section class="section">
+        <h1>Flex-Wrap - Wrap</h1>
+        <div class="flex-wrap">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+        </div>
+        <div class="codeblock">
+    
+            <em>Fles Direction - coumn reverse</em>
+            <xmp>
+                <div class="flex-wrap">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">6</div>
+                    <div class="box">7</div>
+                    <div class="box">8</div>
+                    <div class="box">9</div>
+                    <div class="box">10</div>
+                    <div class="box">11</div>
+                    <div class="box">12</div>
+                    <div class="box">13</div>
+                    <div class="box">14</div>
+                    <div class="box">15</div>
+                    <div class="box">16</div>
+                </div>
+
+                CSS
+                .flex-wrap {
+                    display: flex;
+                    flex-direction:row;
+                    flex-wrap:wrap;
+                }
+    
+            </xmp>
+        </div>
+    </section>
+    <section class="section">
+        <h1>Flex-Wrap - NoWrap</h1>
+        <div class="flex-nowrap">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+        </div>
+        <div class="codeblock">
+    
+            <em><h1>Flex-Wrap - Wrap</h1></em>
+            <xmp>
+                <div class="flex-nowrap">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">6</div>
+                    <div class="box">7</div>
+                    <div class="box">8</div>
+                    <div class="box">9</div>
+                    <div class="box">10</div>
+                    <div class="box">11</div>
+                    <div class="box">12</div>
+                    <div class="box">13</div>
+                    <div class="box">14</div>
+                    <div class="box">15</div>
+                    <div class="box">16</div>
+                </div>
+
+                CSS
+                .noflex-wrap {
+                    display: flex;
+                    flex-direction:row;
+                    flex-wrap:nowrap;
+                }
+    
+            </xmp>
+        </div>
+    </section>
+
+    <section class="section">
+        <h1>Flex-Wrap - wrap-reverse</h1>
+        <div class="wrap-reverse-nowrap">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+        </div>
+        <div class="codeblock">
+    
+            <em><h1>Flex-Wrap - wrap-reverse</h1></em>
+            <xmp>
+                <div class="wrap-reverse-nowrap">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">6</div>
+                    <div class="box">7</div>
+                    <div class="box">8</div>
+                    <div class="box">9</div>
+                    <div class="box">10</div>
+                    <div class="box">11</div>
+                    <div class="box">12</div>
+                    <div class="box">13</div>
+                    <div class="box">14</div>
+                    <div class="box">15</div>
+                    <div class="box">16</div>
+                </div>
+
+                CSS
+                .wrap-reverse-nowrap {
+                    display: flex;
+                    flex-direction:row;
+                    flex-wrap:wrap-reverse;
+                }
+    
+            </xmp>
+        </div>
+    </section>
+    <section class="section">
+        <h1>flex-flow</h1>
+        <div class="flex-flow">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+        </div>
+        <div class="codeblock">
+    
+            <em><h1>flex-flow:</h1></em>
+            <xmp>
+                <div class="flex-flow">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">6</div>
+                    <div class="box">7</div>
+                    <div class="box">8</div>
+                    <div class="box">9</div>
+                    <div class="box">10</div>
+                    <div class="box">11</div>
+                    <div class="box">12</div>
+                    <div class="box">13</div>
+                    <div class="box">14</div>
+                    <div class="box">15</div>
+                    <div class="box">16</div>
+                </div>
+
+                CSS
+                .flex-flow: {
+                    display: flex;
+                    flex-direction:row;
+                    flex-wrap:wrap-reverse;
+                }
+    
+            </xmp>
+        </div>
+    </section>
+
+    <section class="section">
+        <h1>justify-content:</h1>
+        <div class="justify-content-start">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+    
+        </div>
+        <div class="codeblock">
+    
+            <em>
+                <h1>justify-content</h1>
+                <h3>.container {
+                    justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+                  }</h3>
+            </em>
+            <xmp>
+                <div class="justify-content-start">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+        
+                </div>
+
+                CSS
+                .justify-content-start {
+                    display: flex;
+                    flex-direction:row;
+                    flex-wrap:wrap;
+                    justify-content: start;
+                }
+    
+            </xmp>
+       
+        </div>
+        
+    </section>
+
+    <section class="section">
+        <h1>Align-items</h1>
+        <div class="align-items">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div>
+        <div class="codeblock">
+    
+            <em>
+                <h1>Align-items</h1>
+                <h3> 
+                    .container {
+                        align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
+                      }
+                
+                </h3>
+            </em>
+            <xmp>
+                <div class="align-items">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+        
+                </div>
+
+                CSS
+                .align-items {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+    
+            </xmp>
+       
+        </div>
+        
+    </section>
+</div>
 </body>
 
 </html>
